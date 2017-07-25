@@ -184,6 +184,11 @@ body {
   float: left;
   width: 100%;
 }
+.wrapper80percent {
+  width: 80%;
+  margin-left: auto ;
+  margin-right: auto ;
+}
 .loading {
   position: fixed;
   overflow: hidden;
@@ -1076,7 +1081,7 @@ html[xmlns] .flexslider .slides {
   position: relative;
   z-index: 10;
   padding: 0;
-  width: 20%;
+  width: 33.333%;
   float: left;
 }
 .services .one-service img {
@@ -1862,6 +1867,7 @@ i.teamicon:hover {
   float: left;
   text-align: center;
   max-width: 100%;
+  pointer-events: none
 }
 .map iframe {
   position: relative;
@@ -2044,7 +2050,7 @@ footer.bottom a:visited {
 }
 footer.bottom a:link:hover,
 footer.bottom a:visited:hover {
-  color: #184e8d;
+  color: #fff;
 }
 footer.bottom h4 {
   color: #fff;
@@ -2071,7 +2077,7 @@ ul.socialicons li a:visited {
   display: inline-block;
   width: 54px;
   height: 54px;
-  background: #4d4d4d;
+  background: #909090;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   border-radius: 500px;
@@ -2082,7 +2088,7 @@ ul.socialicons li a:visited {
 }
 ul.socialicons li a:link:hover,
 ul.socialicons li a:visited:hover {
-  background: #909090;
+  background: #4d4d4d;
 }
 ul.socialicons li i {
   font-size: 27px;
