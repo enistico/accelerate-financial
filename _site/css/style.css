@@ -3169,6 +3169,18 @@ span.ct-label {
   margin-bottom: 54px;
   background: #184e8d;
 }
+
+@media (max-width: 1000px) {
+  .mainheadlinewrapperpage {
+    padding: 54px 0;
+    float: left;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 54px;
+    background: #184e8d;
+  }
+}
+
 .mainheadlinewrapperpage h1 {
   font-size: 28px;
   margin-bottom: 7px;
@@ -3217,6 +3229,7 @@ span.ct-label {
 /************ insurance single page ************/
 .insurance-headline {
   width: 100%;
+  margin-top: 200px;
   float: left;
   background: #184e8d;
   text-align: center;
@@ -3304,6 +3317,18 @@ ul.insurance-list span {
     border-bottom: none;
   }
 }
+
+@media (max-width: 1000px) {
+  .insurance-headline {
+    width: 100%;
+    margin-top: 0px;
+    float: left;
+    background: #184e8d;
+    text-align: center;
+    padding: 54px 0 0 0;
+  }
+}
+
 @media (max-width: 500px) {
   ul.insurance-list span {
     width: auto;
