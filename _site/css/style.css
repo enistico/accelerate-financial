@@ -26,6 +26,7 @@ single page
 insurance single page
 gallery page
 tabs
+MFAA calculators
 
 ------------------------------------------------------------*/
 /********* html5 and responsive content *********/
@@ -1081,7 +1082,7 @@ html[xmlns] .flexslider .slides {
   position: relative;
   z-index: 10;
   padding: 0;
-  width: 33.333%;
+  width: 20%;
   float: left;
 }
 .services .one-service img {
@@ -3190,7 +3191,7 @@ span.ct-label {
 .mainheadlinewrapperpage p {
   color: #fff;
   opacity: 0.7;
-  line-height: 1;
+  line-height: 1.5;
   margin-bottom: 0;
   font-family: "lato";
 }
@@ -3231,9 +3232,11 @@ span.ct-label {
   width: 100%;
   margin-top: 200px;
   float: left;
-  background: #184e8d;
   text-align: center;
   padding: 54px 0 0 0;
+}
+.loans-background {
+  background: #79C000;
 }
 .insurance-headline h1 {
   font-size: 35px;
@@ -3269,7 +3272,6 @@ span.ct-label {
 .insurance-headline ul.single-icons-wrapper li {
   margin-bottom: 0;
   padding: 0 0 27px 0;
-  border-bottom: 2px solid #184e8d;
 }
 .insurance-headline ul.single-icons-wrapper li:hover {
   border-bottom: 2px solid #4d4d4d;
@@ -3340,7 +3342,6 @@ ul.insurance-list span {
 .insurance-section1 {
   width: 100%;
   float: left;
-  background: #184e8d;
 }
 .insurance-section1 img {
   margin-top: -27px;
@@ -3425,7 +3426,6 @@ ul.insurance-list span {
   float: left;
   display: -webkit-flex;
   display: flex;
-  background: #13577a;
 }
 .section-cta p,
 .section-cta h1,
@@ -3720,3 +3720,64 @@ ul.insurance-list span {
   padding: 14px 0;
 }
 /************* tabs end **************/
+/* MFAA calculators */
+.VisiCalcClass {
+  background:url(/staticAssets/calculators/load.gif) 50% 15% no-repeat;
+  background-size: 80px 80px;
+  min-width: 640px;
+  min-height:800px;
+  margin:0;
+  padding:0;
+}
+
+#Loan_Repayment_Calculator { min-height:750px !important; }
+#Borrowing_Power_Calculator { min-height:750px !important; }
+#Budget_Planner { min-height:2850px !important; }
+#Compound_Interest_Calculator { min-height:850px !important; }
+#Credit_Card_Calculator { min-height:900px !important; }
+#How_Long_to_Repay_Calculator { min-height:750px !important; }
+#Interest_Only_Mortgage_Calculator { min-height:750px !important; }
+#Saving_Calculator { min-height:600px !important; }
+#Split_Loan_Calculator { min-height:800px !important; }
+#Property_Selling_Cost_Calculator { min-height:700px !important; }
+#Reverse_Mortgage_Calculator { min-height:1100px !important; }
+#Stamp_Duty_Calculator { min-height:800px !important; }
+
+#Income_Gross_Up_Calculator{ min-height:900px !important; }
+#Income_Gross_Up_Calculator{ min-height:900px !important; }
+#RentvsBuyCalculator { min-height:1100px !important; }
+#Mortgage_Switching_Calculator { min-height:1100px !important; }
+
+@media screen and (max-width: 767px) {
+    .VisiCalcClass {
+        min-width: 100%;
+        min-height:1250px;
+        margin:0;
+        padding:0;}
+
+                #Loan_Repayment_Calculator { min-height:1250px !important; }
+                #Borrowing_Power_Calculator { min-height:1800px !important; }
+                #Budget_Planner { min-height:5000px !important; }
+                #Comparison_Rate_Calculator { min-height:1450px !important; }
+                #Compound_Interest_Calculator { min-height:1200px !important; }
+                #Credit_Card_Calculator { min-height:1500px !important; }
+                #Extra_Repayment_Calculator { min-height:1450px !important; }
+                #Home_Loan_Offset_Calculator{ min-height:1400px !important; }
+                #How_Long_to_Repay_Calculator { min-height:1250px !important; }
+                #Interest_Only_Mortgage_Calculator { min-height:1450px !important; }
+                #Saving_Calculator { min-height:1250px !important; }
+                #Introductory_Rate_Loan_Calculator{ min-height:1400px !important; }
+                #Lump_Sum_Repayment_Calculator { min-height:1450px !important; }
+                #Split_Loan_Calculator { min-height:1550px !important; }
+                #Loan_Comparison_Calculator { min-height:1800px !important; }
+                #Property_Buying_Cost_Calculator { min-height:1850px !important; }
+                #Property_Selling_Cost_Calculator { min-height:1650px !important; }
+                #Reverse_Mortgage_Calculator { min-height:1900px !important; }
+                #Stamp_Duty_Calculator { min-height:1250px !important; }
+                #Income_Gross_Up_Calculator{ min-height:1700px !important; }
+                #Income_Gross_Up_Calculator{ min-height:1700px !important; }
+                #RentvsBuyCalculator { min-height:1900px !important; }
+                #Mortgage_Switching_Calculator { min-height:1900px !important; }
+                }
+}
+/* MFAA calculators end*/
