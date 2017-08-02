@@ -201,7 +201,7 @@ body {
   position: relative;
   float: left;
   margin-top: 1px;
-  padding-bottom: 54px;
+  padding-bottom: 20px;
   width: 100%;
 }
 .section {
@@ -294,7 +294,7 @@ body {
 /*** sections end ***/
 .mainheadlinewrapper {
   margin-top: 0;
-  margin-bottom: 54px;
+  margin-bottom: 25px;
   float: left;
   width: 100%;
   text-align: center;
@@ -415,7 +415,7 @@ body {
 }
 /** first navigation **/
 .navbar-height1 {
-  height: 150px;
+  height: 120px;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
   -o-transition: all 0.5s ease;
@@ -438,7 +438,7 @@ body {
   padding-bottom: 50px!important;
 }
 .navbar-height1 .navbar-brand {
-  padding-top: 37px;
+  padding-top: 20px;
   height: auto;
   -webkit-transition: all 0.5s ease;
   -moz-transition: all 0.5s ease;
