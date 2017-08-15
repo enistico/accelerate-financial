@@ -27,6 +27,7 @@ insurance single page
 gallery page
 tabs
 MFAA calculators
+other custom CSS
 
 ------------------------------------------------------------*/
 /********* html5 and responsive content *********/
@@ -59,7 +60,7 @@ a:visited {
 }
 a:link:hover,
 a:visited:hover {
-  color: #071D49;
+  color: #184E8D;
 }
 ul,
 ol {
@@ -82,7 +83,7 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: 0;
-  color: #071d49;
+  color: #184E8D;
   font-family: "lato", arial, sans-serif;
 }
 h1,
@@ -125,13 +126,13 @@ br {
   line-height: 0;
 }
 ul.ul-list i {
-  color: #071D49;
+  color: #184E8D;
   padding-right: 10px;
 }
 /***bootstrap fix important***/
 .row {
   margin-right: 0;
-  margin-left: 0;
+  margin-left: 0
 }
 @media (max-width: 767px) {
   .pull-right {
@@ -225,7 +226,7 @@ body {
   float: left;
   width: 100%;
   padding: 0 0 54px 0;
-  background: #071D49;
+  background: #184E8D;
 }
 .section2 h1,
 .section2 h2,
@@ -311,12 +312,12 @@ body {
 }
 .mainheadlinewrapper .mainheadline h3 {
   font-weight: 400;
-  color: #071D49;
+  color: #184E8D;
   margin-bottom: 15px;
   font-size: 18px;
   font-family: "Lato";
   line-height: 1.5;
-  color: #184e8d;
+  color: #184E8D;
 }
 /********* general classes end *********/
 /************ menu ************/
@@ -328,7 +329,7 @@ body {
   border-bottom: 1px solid #e4e7ea;
 }
 .top i {
-  color: #071D49;
+  color: #184E8D;
   padding: 10px 14px;
   font-size: 20px;
   float: left;
@@ -372,7 +373,7 @@ body {
   height: 34px;
   margin-top: 22px;
   margin-bottom: 8px;
-  background: #071D49;
+  background: #184E8D;
   border: none;
   border-radius: 0;
 }
@@ -505,7 +506,7 @@ body {
 .nav > li > a:visited {
   padding: 0 20px;
   background: transparent;
-  color: #18438d ;
+  color: #184E8D ;
   font-size: 18px;
   font-family: "lato";
   font-weight: 700;
@@ -585,7 +586,7 @@ li.active {
   font-weight: 400;
 }
 .navbar-nav > li > ul > li > a:hover {
-  color: #184e8d;
+  color: #184E8D;
 }
 .navbar-nav > li:hover ul {
   left: 0;
@@ -739,7 +740,7 @@ li.active {
   line-height: 1;
   padding: 15px 22px;
   text-transform: uppercase;
-  background: #071D49;
+  background: #184E8D;
   font-weight: 600;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
@@ -913,17 +914,17 @@ html[xmlns] .flexslider .slides {
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   border-radius: 500px;
-  background: #071D49;
+  background: #184E8D;
   cursor: pointer;
   text-indent: -9999px;
   opacity: 0.6;
 }
 .flex-control-paging li a:hover {
-  background: #071D49;
+  background: #184E8D;
   opacity: 1;
 }
 .flex-control-paging li a.flex-active {
-  background: #071D49;
+  background: #184E8D;
   cursor: default;
   opacity: 1;
 }
@@ -1025,7 +1026,7 @@ html[xmlns] .flexslider .slides {
   float: left;
   width: 100%;
   text-align: center;
-  background: #071D49;
+  background: #184E8D;
   padding: 28px 0;
 }
 .timerwrapper .onecounter-left {
@@ -1101,7 +1102,7 @@ html[xmlns] .flexslider .slides {
   color: #fff;
 }
 .services .color1 {
-  background: #071D49;
+  background: #184E8D;
 }
 .services .color2 {
   background: #79c000;
@@ -1571,7 +1572,7 @@ i.teamicon {
   border-radius: 500px;
 }
 i.teamicon:hover {
-  color: #071D49;
+  color: #184E8D;
   -webkit-transition: background 0.5s ease;
   -moz-transition: background 0.5s ease;
   -o-transition: background 0.5s ease;
@@ -1803,7 +1804,7 @@ i.teamicon:hover {
   line-height: 1;
   padding: 15px 22px;
   text-transform: uppercase;
-  background: #071D49;
+  background: #184E8D;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   border-radius: 500px;
@@ -1951,7 +1952,7 @@ i.teamicon:hover {
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   border-radius: 500px;
-  color: #071D49;
+  color: #184E8D;
   font-size: 20px;
   padding-top: 16px;
   padding-left: 10px;
@@ -1994,7 +1995,7 @@ i.teamicon:hover {
   display: block;
   font-size: 13px;
   padding: 14px 27px;
-  background: #071D49 url("../images/minus.png") right center no-repeat;
+  background: #184E8D url("../images/minus.png") right center no-repeat;
   font-family: "lato";
   color: #fff;
   font-weight: 600;
@@ -2043,7 +2044,7 @@ footer.bottom {
   width: 100%;
   float: left;
   padding: 54px 0;
-  background: #071D49;
+  background: #184E8D;
 }
 footer.bottom a:link,
 footer.bottom a:visited {
@@ -2186,7 +2187,7 @@ ul.socialicons li i {
 .pagination > li > a:focus,
 .pagination > li > span:focus {
   color: #fff;
-  background-color: #071D49;
+  background-color: #184E8D;
 }
 .commentwrapper {
   width: 100%;
@@ -2228,7 +2229,7 @@ ul.socialicons li i {
   font-weight: 600;
 }
 .commentwrapper .comment a:hover {
-  color: #071D49;
+  color: #184E8D;
 }
 .commentwrapper .comment h5 {
   margin-bottom: 14px;
@@ -2592,7 +2593,7 @@ ul.socialicons li i {
 .ct-series-a .ct-line,
 .ct-series-a .ct-point,
 .ct-series-a .ct-slice-donut {
-  stroke: #071D49;
+  stroke: #184E8D;
 }
 .ct-series-a .ct-area,
 .ct-series-a .ct-slice-pie {
@@ -3169,7 +3170,7 @@ span.ct-label {
   width: 100%;
   margin-top: 200px;
   margin-bottom: 54px;
-  background: #071D49;
+  background: #184E8D;
 }
 
 @media (max-width: 1000px) {
@@ -3179,7 +3180,7 @@ span.ct-label {
     width: 100%;
     margin-top: 0px;
     margin-bottom: 54px;
-    background: #071D49;
+    background: #184E8D;
   }
 }
 
@@ -3326,7 +3327,7 @@ ul.insurance-list span {
     width: 100%;
     margin-top: 0px;
     float: left;
-    background: #071D49;
+    background: #184E8D;
     text-align: center;
     padding: 54px 0 0 0;
   }
@@ -3412,7 +3413,7 @@ ul.insurance-list span {
   letter-spacing: 1px;
 }
 .insurance-icons .insurance-icon {
-  background: #071D49;
+  background: #184E8D;
   width: 90px;
   height: 90px;
   -webkit-border-radius: 500px;
@@ -3550,10 +3551,10 @@ ul.insurance-list span {
   margin-bottom: 27px;
 }
 #options ul li a:hover {
-  background: #071D49;
+  background: #184E8D;
 }
 #options ul li a:focus {
-  background: #071D49;
+  background: #184E8D;
 }
 .isotopecontainer {
   margin: 0 auto 54px auto;
@@ -3639,7 +3640,7 @@ ul.insurance-list span {
   margin-bottom: 14px;
   padding-top: 18px;
   text-transform: uppercase;
-  color: #071D49;
+  color: #184E8D;
   background: #fff;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
@@ -3782,3 +3783,12 @@ ul.insurance-list span {
                 }
 }
 /* MFAA calculators end*/
+
+/* Other custom CSS*/
+
+.topmargin {
+  margin-top: 20px
+}
+
+
+/* Other custom CSS end*/
