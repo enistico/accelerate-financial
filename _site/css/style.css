@@ -994,7 +994,7 @@ html[xmlns] .flexslider .slides {
 @media (max-width: 992px) {
   .flexslider {
     margin-top: 0;
-    background: #31363e;
+    /*background: #31363e;*/
   }
   .flex-caption {
     position: relative;
@@ -3341,7 +3341,7 @@ ul.insurance-list span {
     width: 100%;
     margin-top: 0px;
     float: left;
-    background: #184E8D;
+    /*background: #184E8D;*/
     text-align: center;
     padding: 54px 0 0 0;
   }
