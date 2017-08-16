@@ -55,7 +55,7 @@ video {
 a:link,
 a:visited {
   outline: none;
-  text-decoration: none;
+  /*text-decoration: none;*/
   color: #9f9f9f;
 }
 a:link:hover,
@@ -296,8 +296,9 @@ body {
 .mainheadlinewrapper {
   margin-top: 0;
   margin-bottom: 25px;
-  float: left;
-  width: 100%;
+  width: 60%;
+  margin-left: auto ;
+  margin-right: auto ;
   text-align: center;
 }
 .mainheadlinewrapper .mainheadline {
@@ -378,7 +379,7 @@ body {
   border-radius: 0;
 }
 .navbar-toggle .icon-bar {
-  background-color: #4d4d4d;
+  background-color: #ffffff;
   margin: 0;
 }
 .navbar-toggle:hover .icon-bar.icon-bar1,
@@ -567,7 +568,7 @@ li.active {
 .nav li ul {
   display: block;
   float: left;
-  width: 200px!important;
+  width: 250px!important;
   background: #f8f8f8;
   padding: 14px!important;
   border-bottom-left-radius: 15px;
@@ -584,6 +585,7 @@ li.active {
   font-size: 16px;
   font-family: "Lato";
   font-weight: 400;
+  line-height: 1.2em;
 }
 .navbar-nav > li > ul > li > a:hover {
   color: #184E8D;
@@ -1521,7 +1523,7 @@ http://flickity.metafizzy.co
   float: left;
   width: 100%;
   text-align: center;
-  margin-bottom: -14px;
+  margin-bottom: 15px;
   padding: 0 14px;
 }
 .teamcolumn .teamcolumn-inner {
@@ -3239,6 +3241,18 @@ span.ct-label {
 }
 .loans-background {
   background: #79C000;
+}
+.financial-solutions-background {
+  background: #0085CA;
+}
+.car-buying-background {
+  background: #FF6900;
+}
+.dealer-solutions-background {
+  background: #FEDD00;
+}
+.learning-background {
+  background: #8E3A80;
 }
 .insurance-headline h1 {
   font-size: 35px;

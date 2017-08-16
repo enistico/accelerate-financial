@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<head>
+  {% include head.html %}
+
+  <!-- This adds page specific content to the head of that page. -->
+  {{page.head_html}}
+
+</head>
+
+<body>
+
+<div>
+  {% include site-header-dealer-solutions.html %}
+</div>
+<div>
+  {{content}}
+</div>
+<div>
+  {% include site-footer.html %}
+</div>
+
+{% include body-scripts.html %}
+</body>
