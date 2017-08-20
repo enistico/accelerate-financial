@@ -1529,7 +1529,7 @@ http://flickity.metafizzy.co
 .teamcolumn .teamcolumn-inner {
   float: left;
   width: 100%;
-  border: 1px solid #f4f4f4;
+  /*border: 1px solid #f4f4f4;*/
   border-bottom-left-radius: 30px;
   border-bottom-right-radius: 30px;
 }
@@ -2046,7 +2046,7 @@ footer.bottom {
   width: 100%;
   float: left;
   padding: 54px 0;
-  background: #184E8D;
+  background: #071D49;
 }
 footer.bottom a:link,
 footer.bottom a:visited {
@@ -3172,7 +3172,7 @@ span.ct-label {
   width: 100%;
   margin-top: 200px;
   margin-bottom: 54px;
-  background: #184E8D;
+  background: #071D49;
 }
 
 @media (max-width: 1000px) {
@@ -3182,7 +3182,7 @@ span.ct-label {
     width: 100%;
     margin-top: 0px;
     margin-bottom: 54px;
-    background: #184E8D;
+    background: #071D49;
   }
 }
 
