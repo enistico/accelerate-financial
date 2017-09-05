@@ -60,7 +60,7 @@ a:visited {
 }
 a:link:hover,
 a:visited:hover {
-  color: #071D49;
+  color: #001E62;
 }
 ul,
 ol {
@@ -83,7 +83,7 @@ h5,
 h6 {
   margin-top: 0;
   margin-bottom: 0;
-  color: #071D49;
+  color: #001E62;
   font-family: "lato", arial, sans-serif;
 }
 h1,
@@ -126,7 +126,7 @@ br {
   line-height: 0;
 }
 ul.ul-list i {
-  color: #071D49;
+  color: #001E62;
   padding-right: 10px;
 }
 /***bootstrap fix important***/
@@ -227,7 +227,7 @@ body {
   float: left;
   width: 100%;
   padding: 0 0 54px 0;
-  background: #071D49;
+  background: #001E62;
 }
 .section2 h1,
 .section2 h2,
@@ -314,12 +314,12 @@ body {
 }
 .mainheadlinewrapper .mainheadline h3 {
   font-weight: 400;
-  color: #071D49;
+  color: #001E62;
   margin-bottom: 15px;
   font-size: 18px;
   font-family: "Lato";
   line-height: 1.5;
-  color: #071D49;
+  color: #001E62;
 }
 /********* general classes end *********/
 /************ menu ************/
@@ -331,7 +331,7 @@ body {
   border-bottom: 1px solid #e4e7ea;
 }
 .top i {
-  color: #071D49;
+  color: #001E62;
   padding: 10px 14px;
   font-size: 20px;
   float: left;
@@ -375,7 +375,7 @@ body {
   height: 34px;
   margin-top: 22px;
   margin-bottom: 8px;
-  background: #071D49;
+  background: #001E62;
   border: none;
   border-radius: 0;
 }
@@ -508,7 +508,7 @@ body {
 .nav > li > a:visited {
   padding: 0 20px;
   background: transparent;
-  color: #071D49 ;
+  color: #001E62 ;
   font-size: 18px;
   font-family: "lato";
   font-weight: 700;
@@ -589,7 +589,7 @@ li.active {
   line-height: 1.2em;
 }
 .navbar-nav > li > ul > li > a:hover {
-  color: #071D49;
+  color: #001E62;
 }
 .navbar-nav > li:hover ul {
   left: 0;
@@ -743,7 +743,7 @@ li.active {
   line-height: 1;
   padding: 15px 22px;
   text-transform: uppercase;
-  background: #071D49;
+  background: #001E62;
   font-weight: 600;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
@@ -920,17 +920,17 @@ html[xmlns] .flexslider .slides {
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   border-radius: 500px;
-  background: #071D49;
+  background: #001E62;
   cursor: pointer;
   text-indent: -9999px;
   opacity: 0.6;
 }
 .flex-control-paging li a:hover {
-  background: #071D49;
+  background: #001E62;
   opacity: 1;
 }
 .flex-control-paging li a.flex-active {
-  background: #071D49;
+  background: #001E62;
   cursor: default;
   opacity: 1;
 }
@@ -1032,7 +1032,7 @@ html[xmlns] .flexslider .slides {
   float: left;
   width: 100%;
   text-align: center;
-  background: #071D49;
+  background: #001E62;
   padding: 28px 0;
 }
 .timerwrapper .onecounter-left {
@@ -1108,7 +1108,7 @@ html[xmlns] .flexslider .slides {
   color: #fff;
 }
 .services .color1 {
-  background: #071D49;
+  background: #001E62;
 }
 .services .color2 {
   background: #79c000;
@@ -1557,7 +1557,7 @@ http://flickity.metafizzy.co
   font-size: 16px;
   font-style: italic;
   font-weight: 400;
-  color: #d0d0d0;
+  color: #909090;
 }
 .teamcolumn .team-name p {
   margin-bottom: 20px;
@@ -1578,7 +1578,7 @@ i.teamicon {
   border-radius: 500px;
 }
 i.teamicon:hover {
-  color: #071D49;
+  color: #001E62;
   -webkit-transition: background 0.5s ease;
   -moz-transition: background 0.5s ease;
   -o-transition: background 0.5s ease;
@@ -1694,7 +1694,7 @@ i.teamicon:hover {
   font-size: 15px;
   font-family: "lato";
   font-style: italic;
-  color: #d0d0d0;
+  color: #909090;
   margin-right: 7px;
 }
 .homeblog .date i {
@@ -1810,7 +1810,7 @@ i.teamicon:hover {
   line-height: 1;
   padding: 15px 22px;
   text-transform: uppercase;
-  background: #071D49;
+  background: #001E62;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   border-radius: 500px;
@@ -1958,7 +1958,7 @@ i.teamicon:hover {
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   border-radius: 500px;
-  color: #071D49;
+  color: #001E62;
   font-size: 20px;
   padding-top: 16px;
   padding-left: 10px;
@@ -2001,7 +2001,7 @@ i.teamicon:hover {
   display: block;
   font-size: 13px;
   padding: 14px 27px;
-  background: #071D49 url("../images/minus.png") right center no-repeat;
+  background: #001E62 url("../images/minus.png") right center no-repeat;
   font-family: "lato";
   color: #fff;
   font-weight: 600;
@@ -2050,7 +2050,7 @@ footer.bottom {
   width: 100%;
   float: left;
   padding: 54px 0;
-  background: #001E62;
+  background: #071D49;
 }
 footer.bottom a:link,
 footer.bottom a:visited {
@@ -2193,7 +2193,7 @@ ul.socialicons li i {
 .pagination > li > a:focus,
 .pagination > li > span:focus {
   color: #fff;
-  background-color: #071D49;
+  background-color: #001E62;
 }
 .commentwrapper {
   width: 100%;
@@ -2235,7 +2235,7 @@ ul.socialicons li i {
   font-weight: 600;
 }
 .commentwrapper .comment a:hover {
-  color: #071D49;
+  color: #001E62;
 }
 .commentwrapper .comment h5 {
   margin-bottom: 14px;
@@ -2599,7 +2599,7 @@ ul.socialicons li i {
 .ct-series-a .ct-line,
 .ct-series-a .ct-point,
 .ct-series-a .ct-slice-donut {
-  stroke: #071D49;
+  stroke: #001E62;
 }
 .ct-series-a .ct-area,
 .ct-series-a .ct-slice-pie {
@@ -3176,7 +3176,7 @@ span.ct-label {
   width: 100%;
   margin-top: 200px;
   margin-bottom: 54px;
-  background: #001E62;
+  background: #071D49;
 }
 
 @media (max-width: 1000px) {
@@ -3186,7 +3186,7 @@ span.ct-label {
     width: 100%;
     margin-top: 0px;
     margin-bottom: 54px;
-    background: #071D49;
+    background: #001E62;
   }
 }
 
@@ -3236,13 +3236,6 @@ span.ct-label {
 }
 /************ single page end ************/
 /************ insurance single page ************/
-.insurance-headline {
-  width: 100%;
-  margin-top: 200px;
-  float: left;
-  text-align: center;
-  padding: 54px 0 0 0;
-}
 .service-headline {
   width: 100%;
   float: left;
@@ -3254,6 +3247,74 @@ span.ct-label {
   margin-bottom: 10px;
   color: #fff;
 }
+.service-headline p {
+  max-width: 600px;
+  margin: 0 auto;
+  color: #fff;
+}
+.service-headline h1 {
+  font-size: 35px;
+  margin-bottom: 27px;
+}
+.service-headline p {
+  max-width: 600px;
+  margin: 0 auto;
+}
+.service-headline a {
+  display: block;
+  opacity: 0.7;
+  letter-spacing: 1px;
+  font-weight: 600;
+}
+.service-headline a:hover {
+  opacity: 1;
+}
+.service-headline img {
+  margin-bottom: 27px;
+}
+.service-headline h4 {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: 600;
+}
+.service-headline ul.single-icons-wrapper {
+  width: 100%;
+  float: left;
+  margin-top: 27px;
+  margin-bottom: 0;
+}
+.service-headline ul.single-icons-wrapper li {
+  margin-bottom: 0;
+  padding: 0 0 27px 0;
+}
+.service-headline ul.single-icons-wrapper li:hover {
+  border-bottom: 2px solid #4d4d4d;
+}
+.service-headline .single-icon {
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+  padding: 27px;
+}
+.service-headline .single-icon.last {
+  border: none;
+}
+.service-headline h1,
+.service-headline h2,
+.service-headline h3,
+.service-headline h4,
+.service-headline h5,
+.service-headline h6,
+.service-headline p {
+  color: #fff;
+}
+
+.insurance-headline {
+  width: 100%;
+  margin-top: 200px;
+  float: left;
+  text-align: center;
+  padding: 54px 0 0 0;
+}
+
 .insurance-headline p {
   max-width: 600px;
   margin: 0 auto;
@@ -3361,7 +3422,7 @@ ul.insurance-list span {
     width: 100%;
     margin-top: 0px;
     float: left;
-    /*background: #071D49;*/
+    /*background: #001E62;*/
     text-align: center;
     padding: 54px 0 0 0;
   }
@@ -3447,7 +3508,7 @@ ul.insurance-list span {
   letter-spacing: 1px;
 }
 .insurance-icons .insurance-icon {
-  background: #071D49;
+  background: #001E62;
   width: 90px;
   height: 90px;
   -webkit-border-radius: 500px;
@@ -3585,10 +3646,10 @@ ul.insurance-list span {
   margin-bottom: 27px;
 }
 #options ul li a:hover {
-  background: #071D49;
+  background: #001E62;
 }
 #options ul li a:focus {
-  background: #071D49;
+  background: #001E62;
 }
 .isotopecontainer {
   margin: 0 auto 54px auto;
@@ -3674,7 +3735,7 @@ ul.insurance-list span {
   margin-bottom: 14px;
   padding-top: 18px;
   text-transform: uppercase;
-  color: #071D49;
+  color: #001E62;
   background: #fff;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
@@ -3836,6 +3897,10 @@ ul.insurance-list span {
 .loans-disclaimer p {
   color: #909090;
   font-style: italic;
+}
+
+.team-qualifications {
+  font-size: 8px;
 }
 
 /* Other custom CSS end*/
