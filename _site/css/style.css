@@ -164,7 +164,7 @@ body {
 }
 body {
   height: 100%;
-  color: #909090;
+  color: #4D4D4D;
   font-size: 15px;
   font-family: "Lato", arial, sans-serif;
   line-height: 1.5;
@@ -320,6 +320,10 @@ body {
   font-family: "Lato";
   line-height: 1.5;
   color: #001E62;
+}
+
+.mainheadlinewrapper .mainheadline img {
+  padding-bottom: 20px;
 }
 /********* general classes end *********/
 /************ menu ************/
@@ -1557,7 +1561,7 @@ http://flickity.metafizzy.co
   font-size: 16px;
   font-style: italic;
   font-weight: 400;
-  color: #909090;
+  color: #4D4D4D;
 }
 .teamcolumn .team-name p {
   margin-bottom: 20px;
@@ -2065,6 +2069,9 @@ footer.bottom h4 {
   font-weight: 600;
   font-size: 15px;
   margin-bottom: 10px;
+}
+footer.bottom li {
+  color: #909090;
 }
 @media (max-width: 992px) {
   footer.bottom {
@@ -3287,9 +3294,9 @@ span.ct-label {
   margin-bottom: 0;
   padding: 0 0 27px 0;
 }
-.service-headline ul.single-icons-wrapper li:hover {
+/*.service-headline ul.single-icons-wrapper li:hover {
   border-bottom: 2px solid #4d4d4d;
-}
+}*/
 .service-headline .single-icon {
   border-right: 1px solid rgba(255, 255, 255, 0.4);
   padding: 27px;
@@ -3895,12 +3902,10 @@ ul.insurance-list span {
 }
 
 .loans-disclaimer p {
-  color: #909090;
+  color: #4D4D4D;
   font-style: italic;
 }
 
-.team-qualifications {
-  font-size: 8px;
-}
+
 
 /* Other custom CSS end*/
