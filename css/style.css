@@ -747,7 +747,7 @@ li.active {
   line-height: 1;
   padding: 15px 22px;
   text-transform: uppercase;
-  background: #001E62;
+  background: #071D49;
   font-weight: 600;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
@@ -760,7 +760,7 @@ li.active {
   transition: background 0.5s ease;
 }
 .button1 a:hover {
-  background: #5a5f68;
+  background: #909090;
 }
 /********* button end **********/
 /**************** top slider******************/
@@ -1814,7 +1814,7 @@ i.teamicon:hover {
   line-height: 1;
   padding: 15px 22px;
   text-transform: uppercase;
-  background: #001E62;
+  background: #071D49;
   -webkit-border-radius: 500px;
   -moz-border-radius: 500px;
   border-radius: 500px;
@@ -1830,7 +1830,7 @@ i.teamicon:hover {
   font-weight: 400;
 }
 .buttoncontact input:hover {
-  background: #4d4d4d;
+  background: #909090;
 }
 #main  ::-webkit-input-placeholder {
   font-weight: 600;
@@ -3247,11 +3247,11 @@ span.ct-label {
   width: 100%;
   float: left;
   text-align: center;
-  padding: 25px 25px 0 0;
+  padding: 15px 15px 0 0;
 }
 .service-headline h1 {
   font-size: 35px;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   color: #fff;
 }
 .service-headline p {
@@ -3259,9 +3259,6 @@ span.ct-label {
   margin: 0 auto;
   color: #fff;
 }
-.service-headline h1 {
-  font-size: 35px;
-  margin-bottom: 27px;
 }
 .service-headline p {
   max-width: 600px;
@@ -3277,7 +3274,7 @@ span.ct-label {
   opacity: 1;
 }
 .service-headline img {
-  margin-bottom: 27px;
+  margin-bottom: 15px;
 }
 .service-headline h4 {
   text-transform: uppercase;
@@ -3287,7 +3284,7 @@ span.ct-label {
 .service-headline ul.single-icons-wrapper {
   width: 100%;
   float: left;
-  margin-top: 27px;
+  margin-top: 15px;
   margin-bottom: 0;
 }
 .service-headline ul.single-icons-wrapper li {
@@ -3299,7 +3296,7 @@ span.ct-label {
 }*/
 .service-headline .single-icon {
   border-right: 1px solid rgba(255, 255, 255, 0.4);
-  padding: 27px;
+  padding: 20px;
 }
 .service-headline .single-icon.last {
   border: none;
@@ -3906,6 +3903,15 @@ ul.insurance-list span {
   font-style: italic;
 }
 
+.member-logos {
+  margin-left: auto ;
+  margin-right: auto ;
+  text-align: center;
+}
 
+.member-logos img {
+  padding: 0 0 30px 30px;
+  width: 150px;
+}
 
 /* Other custom CSS end*/
