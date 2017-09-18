@@ -3914,4 +3914,14 @@ ul.insurance-list span {
   width: 150px;
 }
 
+.lender-logos {
+
+}
+
+.lender-logos img {
+  display: inline-block;
+  margin: 0 auto;
+  vertical-align: middle;
+}
+
 /* Other custom CSS end*/
