@@ -3915,7 +3915,7 @@ ul.insurance-list span {
 }
 
 .lender-logos {
-  width: 100%;
+  flex-shrink: 0;
 }
 
 .lender-logos img {
