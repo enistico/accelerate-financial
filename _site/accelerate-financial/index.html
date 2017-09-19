@@ -226,8 +226,9 @@
     <div class="right">
         <div class="right-inner">
             <h3>Enquire now</h3> <!-- contact-form -->
-<form class="wrapper100percent" method="post" action="sendEmail.php">
+<form class="wrapper100percent" method="post" action="/success.html">
   <div id="main">
+
         <div>
           <p><input type="text" placeholder="your name" name="name" id="name"/>
           </p>
@@ -248,10 +249,11 @@
         </p>
         <div class="buttoncontact">
           <p>
-          <input  type="submit"  name="submit" id="submit" value="send request"/>
+          <input type="hidden" name="_to" value="erica@scoutdm.com.au">
+          <input type="submit" value="Send Message">
           </p>
       </div>
-      <ul class="col-sm-12" id="response"></ul>
+      <ul class="col-sm-12"></ul>
   </div>
 </form>
 <!-- contact-form-end end -->
