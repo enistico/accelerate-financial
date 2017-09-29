@@ -67,12 +67,12 @@ ol {
   margin: 0 0 27px 0;
   padding: 0;
   list-style: none;
-  line-height: 1.867;
+  line-height: 1.5;
 }
 ul li,
 ol li {
   margin: 0 0 10px 0;
-  padding: 0;
+  padding-bottom: 5px;
   list-style: none;
 }
 h1,
