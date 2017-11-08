@@ -142,7 +142,7 @@ ul.ul-list i {
     margin: 0;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .navbar-fixed-top {
     position: relative!important;
   }
@@ -269,7 +269,7 @@ body {
   float: left;
   width: 100%;
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .section3 {
     text-align: center;
     float: left;
@@ -510,7 +510,7 @@ body {
 }
 .nav > li > a:link,
 .nav > li > a:visited {
-  padding: 0 20px;
+  padding: 10%;
   background: transparent;
   color: #001E62 ;
   font-size: 18px;
@@ -599,8 +599,8 @@ li.active {
   left: 0;
 }
 /*** second level end ***/
-/** fix for navigation breakpoing **/
-@media (max-width: 992px) {
+/** fix for navigation breakpoint **/
+@media (max-width: 1200px) {
   .nav > li {
     border-top: none!important;
   }
@@ -630,21 +630,21 @@ li.active {
     overflow: hidden!important;
   }
 }
-/** fix for navigation breakpoing end **/
+/** fix for navigation breakpoint end **/
 @media (max-width: 1200px) {
   .nav > li > a:link,
   .nav > li > a:visited {
-    padding-right: 14px;
-    padding-left: 14px;
+    padding-right: 10%;
+    padding-left: 10%;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .nav li ul {
     width: 100%!important;
   }
   .nav > li > a:link,
   .nav > li > a:visited {
-    padding: 14px 4px;
+    padding: 10%;
     font-size: 13px;
   }
   /** fix for navigation breakpoint 2 **/
@@ -708,7 +708,7 @@ li.active {
     z-index: 900;
   }
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .navbar-height1 {
     float: left;
   }
@@ -818,7 +818,7 @@ html[xmlns] .flexslider .slides {
   position: relative;
   zoom: 1;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
   .flexslider {
     margin: 0 auto;
   }
@@ -999,7 +999,7 @@ html[xmlns] .flexslider .slides {
 .flex-caption1 p {
   opacity: 0.8;
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .flexslider {
     margin-top: 0;
     /*background: #31363e;*/
@@ -1799,7 +1799,7 @@ i.teamicon:hover {
 #main textarea:focus {
   background: #81858b;
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   #main input[type="text"] {
     max-width: 100%;
   }
@@ -2035,7 +2035,7 @@ i.teamicon:hover {
   transition: background 0.5s ease;
   background: #81858b url("../images/plus.png") right center no-repeat;
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   .panel-group .panel-heading {
     width: 100%;
     max-width: 100%;
@@ -2073,7 +2073,7 @@ footer.bottom h4 {
 footer.bottom li {
   color: #909090;
 }
-@media (max-width: 992px) {
+@media (max-width: 1200px) {
   footer.bottom {
     text-align: center;
   }
@@ -2296,7 +2296,7 @@ ul.socialicons li i {
 .sidebar-left .widget {
   margin-bottom: 27px;
 }
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 1200px) {
   .sidebar {
     border-left: none;
     padding-left: 0;
